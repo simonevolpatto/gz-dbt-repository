@@ -43,3 +43,21 @@ sources:
           tests:
             - unique:
                 column_name: "(orders_id || '-' || pdt_id)"
+
+        - name: bing
+          identifier: raw_gz_bing
+          description: bing data of greenweez
+
+        - name: adwords
+          identifier: raw_gz_adwords
+          description: adwords data of greenweez
+
+        - name: criteo 
+          identifier: raw_gz_criteo  
+          description: raw data of criteo  
+
+        - name: facebook
+          identifier: raw_gz_facebook 
+          description: facebook data of greenweez 
+
+      
